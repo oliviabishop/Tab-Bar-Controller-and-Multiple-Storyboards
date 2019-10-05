@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  tabBarContoller
 //
-//  Created by Abby Bishop on 10/4/19.
+//  Created by Olivia Bishop on 10/4/19.
 //  Copyright © 2019 Olivia Bishop. All rights reserved.
 //
 
@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UITabBar.appearance().barTintColor = .black
+        
+        
         return true
     }
 
